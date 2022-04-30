@@ -27,6 +27,21 @@ function getDNSStats(/* domains */) {
   // remove line with error and write your code here
 }
 
+// function getDNSStats(domains) {
+//   let obj = {}
+//   domains.forEach(dom=>{
+//   dom.split('.').forEach(el=>{
+//   if (typeof obj[el]==='number'){
+//   obj[el]+=1
+//   } else {
+//   Object.assign(obj, {[el]:1})
+//   }
+//   })
+//   })
+  
+//   return obj
+//   }
+
 module.exports = {
   getDNSStats
 };
