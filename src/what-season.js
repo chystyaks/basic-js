@@ -25,10 +25,7 @@ function getSeason(date) {
   if (month===8||month===9||month===10) return 'autumn'
   } else {
     throw new Error('Invalid date!')
-  }
-  
-  
-  
+  } 
 }
 
 module.exports = {
